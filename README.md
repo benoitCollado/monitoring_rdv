@@ -41,6 +41,9 @@ Pas de worker supplémentaire à déployer.
 cp .env.example .env && docker compose up --build
 ```
 
+Pour un déploiement sur serveur, suivre [docs/deploiement-vps.md](docs/deploiement-vps.md)
+plutôt que cette section.
+
 - Front : http://localhost:5173
 - API + docs OpenAPI : http://localhost:8000/docs
 - Postgres : `localhost:5433` (5433 pour ne pas entrer en conflit avec un autre Postgres)
